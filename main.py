@@ -1,2 +1,5 @@
-mozi=10 + 3
-print (mozi)
+import requests
+
+url="http://example.com"
+response=requests.get(url)
+print(response)
